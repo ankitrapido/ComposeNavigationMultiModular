@@ -1,4 +1,4 @@
-package pseudoankit.droid.core
+package pseudoankit.droid.listings
 
 import org.junit.Test
 
