@@ -34,15 +34,3 @@ fun ShowListings(
         }
     }
 }
-
-@Destination
-@Composable
-fun DetailScreen(
-    item: Int
-) {
-    Box(
-        modifier = Modifier.fillMaxSize()
-    ) {
-        Text(text = "$item got it")
-    }
-}
