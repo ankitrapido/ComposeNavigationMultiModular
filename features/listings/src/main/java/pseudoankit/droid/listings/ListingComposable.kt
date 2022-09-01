@@ -1,6 +1,7 @@
 package pseudoankit.droid.listings
 
-import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -15,8 +16,9 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 fun ShowListings(
     navigator: DestinationsNavigator
 ) {
-    Box(
+    Column(
         modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center
     ) {
         Text(text = "I will show list items")
     }
