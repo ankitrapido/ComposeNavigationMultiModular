@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.navigation.compose.rememberNavController
 import com.ramcosta.composedestinations.DestinationsNavHost
 import pseudoankit.droid.composenavigationmultimodule.ui.theme.ComposeNavigationMultiModuleTheme
-import pseudoankit.droid.onboarding.OnboardingNavGraph
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +18,6 @@ class MainActivity : ComponentActivity() {
                 DestinationsNavHost(
                     navGraph = RootNavGraph,
                     navController = navController,
-                    startRoute = OnboardingNavGraph,
                 )
             }
         }

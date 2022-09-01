@@ -3,6 +3,7 @@ package pseudoankit.droid.composenavigationmultimodule
 import com.ramcosta.composedestinations.spec.DestinationSpec
 import com.ramcosta.composedestinations.spec.NavGraphSpec
 import com.ramcosta.composedestinations.spec.Route
+import pseudoankit.droid.listings.ListingsNavGraph
 import pseudoankit.droid.onboarding.OnboardingNavGraph
 
 object RootNavGraph : NavGraphSpec {
@@ -14,10 +15,10 @@ object RootNavGraph : NavGraphSpec {
         get() = "root"
 
     override val startRoute: Route
-        get() = OnboardingNavGraph
+        get() = ListingsNavGraph
 
     override val nestedNavGraphs: List<NavGraphSpec>
         get() = listOf(
-            OnboardingNavGraph
+            OnboardingNavGraph, ListingsNavGraph
         )
 }
