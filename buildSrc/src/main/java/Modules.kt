@@ -4,5 +4,4 @@ object Modules {
     const val detail = ":features:detail"
     const val home = ":features:home"
     const val onboarding = ":features:onboarding"
-    const val navigation = ":core:navigation"
 }

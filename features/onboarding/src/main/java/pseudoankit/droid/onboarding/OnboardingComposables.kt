@@ -16,7 +16,7 @@ fun StartOnboarding(
 ) {
     Column(
         modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center
+        verticalArrangement = Arrangement.Center,
     ) {
         Text(text = "Onboarding Screen!")
         Spacer(

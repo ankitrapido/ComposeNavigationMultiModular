@@ -46,10 +46,10 @@ android {
 }
 
 dependencies {
-    implementation(project(":features:listings"))
-    implementation(project(":features:detail"))
-    implementation(project(":features:home"))
-    implementation(project(":features:onboarding"))
+    implementation(project(Modules.listings))
+    implementation(project(Modules.detail))
+    implementation(project(Modules.home))
+    implementation(project(Modules.onboarding))
 
     implementation(Compose.compiler)
     implementation(Compose.ui)
