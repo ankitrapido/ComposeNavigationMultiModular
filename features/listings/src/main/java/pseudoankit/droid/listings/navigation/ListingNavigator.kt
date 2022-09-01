@@ -1,5 +1,5 @@
 package pseudoankit.droid.listings.navigation
 
 interface ListingNavigator {
-    fun navigateToDetailScreen()
+    fun navigateToDetailScreen(num: Int)
 }

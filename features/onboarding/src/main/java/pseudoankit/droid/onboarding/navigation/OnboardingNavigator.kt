@@ -1,5 +1,5 @@
 package pseudoankit.droid.onboarding.navigation
 
 interface OnboardingNavigator {
-    fun navigateToListingScreen()
+    fun navigateToListingScreen(list: List<Int>)
 }

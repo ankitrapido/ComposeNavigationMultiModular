@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.ramcosta.composedestinations.annotation.Destination
@@ -16,6 +17,7 @@ import pseudoankit.droid.onboarding.navigation.OnboardingNavigator
 fun StartOnboarding(
     navigator: OnboardingNavigator
 ) {
+    val list = remember { listOf(1, 2, 3) }
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
@@ -27,7 +29,7 @@ fun StartOnboarding(
                 .padding(top = 5.dp)
         )
         Button(onClick = {
-            navigator.navigateToListingScreen()
+            navigator.navigateToListingScreen(list)
         }) {
             Text(text = "Go to listings")
         }
