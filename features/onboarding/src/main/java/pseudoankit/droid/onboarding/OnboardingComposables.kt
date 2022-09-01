@@ -8,11 +8,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootNavGraph
+import pseudoankit.droid.onboarding.navigation.OnboardingNavigator
 
 @RootNavGraph(start = true)
 @Destination(start = true)
 @Composable
 fun StartOnboarding(
+    navigator: OnboardingNavigator
 ) {
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -25,7 +27,7 @@ fun StartOnboarding(
                 .padding(top = 5.dp)
         )
         Button(onClick = {
-
+            navigator.navigateToListingScreen()
         }) {
             Text(text = "Go to listings")
         }

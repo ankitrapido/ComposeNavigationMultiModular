@@ -1,4 +1,4 @@
-package pseudoankit.droid.composenavigationmultimodule
+package pseudoankit.droid.composenavigationmultimodule.navigation
 
 import com.ramcosta.composedestinations.spec.DestinationSpec
 import com.ramcosta.composedestinations.spec.NavGraphSpec
@@ -15,7 +15,7 @@ object RootNavGraph : NavGraphSpec {
         get() = "root"
 
     override val startRoute: Route
-        get() = ListingsNavGraph
+        get() = OnboardingNavGraph
 
     override val nestedNavGraphs: List<NavGraphSpec>
         get() = listOf(
