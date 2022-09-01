@@ -14,9 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ComposeNavigationMultiModule"
 include ':app'
-include ':core'
-include ':features'
 include ':features:listings'
 include ':features:detail'
 include ':features:home'
 include ':features:onboarding'
+include ':core:navigation'
