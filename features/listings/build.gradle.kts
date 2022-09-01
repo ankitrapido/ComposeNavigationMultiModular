@@ -8,7 +8,7 @@ plugins {
 
 ksp {
     arg("compose-destinations.mode", "navgraphs")
-    arg("compose-destinations.moduleName", "onboarding")
+    arg("compose-destinations.moduleName", "listings")
 }
 
 dependencies {

@@ -46,6 +46,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":features:listings"))
+    implementation(project(":features:detail"))
+    implementation(project(":features:home"))
+    implementation(project(":features:onboarding"))
+
     implementation(Compose.compiler)
     implementation(Compose.ui)
     implementation(Compose.uiToolingPreview)
