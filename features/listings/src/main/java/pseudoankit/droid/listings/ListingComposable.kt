@@ -7,11 +7,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.ramcosta.composedestinations.annotation.Destination
-import com.ramcosta.composedestinations.annotation.RootNavGraph
 import pseudoankit.droid.listings.navigation.ListingNavigator
 import kotlin.random.Random
 
-@RootNavGraph(start = true)
 @Destination
 @Composable
 fun ShowListings(
