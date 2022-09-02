@@ -1,9 +1,9 @@
-package pseudoankit.droid.composenavigationmultimodule.navigation
+package pseudoankit.droid.composenavigationmultimodule.navigation.navgraph.root
 
 import com.ramcosta.composedestinations.spec.DestinationSpec
 import com.ramcosta.composedestinations.spec.NavGraphSpec
 import com.ramcosta.composedestinations.spec.Route
-import pseudoankit.droid.listings.ListingsNavGraph
+import pseudoankit.droid.composenavigationmultimodule.navigation.navgraph.components.ListingsNavGraph
 import pseudoankit.droid.onboarding.OnboardingNavGraph
 
 object RootNavGraph : NavGraphSpec {

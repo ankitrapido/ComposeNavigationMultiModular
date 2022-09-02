@@ -7,7 +7,7 @@ plugins {
 }
 
 ksp {
-    arg("compose-destinations.mode", "navgraphs")
+    arg("compose-destinations.mode", "destinations")
     arg("compose-destinations.moduleName", "listings")
 }
 

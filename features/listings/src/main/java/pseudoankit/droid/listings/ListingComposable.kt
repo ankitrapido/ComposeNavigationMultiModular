@@ -12,7 +12,7 @@ import pseudoankit.droid.listings.navigation.ListingNavigator
 import kotlin.random.Random
 
 @RootNavGraph(start = true)
-@Destination(start = true)
+@Destination
 @Composable
 fun ShowListings(
     navigator: ListingNavigator,

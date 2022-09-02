@@ -7,7 +7,7 @@ import androidx.navigation.compose.rememberNavController
 import com.ramcosta.composedestinations.DestinationsNavHost
 import com.ramcosta.composedestinations.navigation.dependency
 import pseudoankit.droid.composenavigationmultimodule.navigation.CoreNavigator
-import pseudoankit.droid.composenavigationmultimodule.navigation.RootNavGraph
+import pseudoankit.droid.composenavigationmultimodule.navigation.navgraph.root.RootNavGraph
 import pseudoankit.droid.composenavigationmultimodule.ui.theme.ComposeNavigationMultiModuleTheme
 
 class MainActivity : ComponentActivity() {
