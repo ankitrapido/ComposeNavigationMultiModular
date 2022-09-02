@@ -10,6 +10,6 @@ class ListingsNavigatorImpl(
 ) : ListingNavigator {
 
     override fun navigateToDetailScreen(num: Int) {
-        navController.navigateTo(DetailScreenDestination)
+        navController.navigateTo(DetailScreenDestination(num))
     }
 }

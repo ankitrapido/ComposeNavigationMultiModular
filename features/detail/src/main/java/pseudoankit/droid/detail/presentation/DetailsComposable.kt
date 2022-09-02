@@ -9,8 +9,10 @@ import com.ramcosta.composedestinations.annotation.Destination
 
 @Destination
 @Composable
-fun DetailScreen() {
+fun DetailScreen(
+    param: Int
+) {
     Box(modifier = Modifier.fillMaxSize()) {
-        Text(text = " got itach")
+        Text(text = "$param got itach")
     }
 }
